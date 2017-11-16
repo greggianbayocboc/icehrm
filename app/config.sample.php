@@ -1,9 +1,9 @@
 <?php
 ini_set('error_log', '_LOG_');
 
-define('APP_NAME', 'Ice Hrm');
-define('FB_URL', 'Ice Hrm');
-define('TWITTER_URL', 'Ice Hrm');
+define('APP_NAME', 'ACE Hrm');
+define('FB_URL', 'ACE Hrm');
+define('TWITTER_URL', 'ACE Hrm');
 
 define('CLIENT_NAME', '_CLIENT_');
 define('APP_BASE_PATH', '_APP_BASE_PATH_');
