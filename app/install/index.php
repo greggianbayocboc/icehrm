@@ -59,7 +59,7 @@ if(!$isDataFolderExists){
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <title>IceHRM</title>
+    <title>ACE HRM</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
     <meta name="author" content="">
@@ -160,7 +160,7 @@ if(!$isDataFolderExists){
   	</script>
   	
   	<div class="container-fluid bgbody" style="max-width:800px;padding-top:10px;margin:auto">
-  	<h1>IceHRM Installation</h1>
+  	<h1>ACE HRM Installation</h1>
   	<p class="p1">
   	Please do not install this application if you have already installed (this could break existing installation)
   	</p>

@@ -230,7 +230,7 @@ class UIManager
         }
 
         if (!$logoFileSet && !file_exists($logoFileName)) {
-            return  BASE_URL."images/logo.png";
+            return  BASE_URL."images/ace.png";
         }
 
         return $logoFileName;
