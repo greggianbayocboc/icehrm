@@ -3,9 +3,9 @@ ini_set('error_log', '/tmp/icehrm.test.log');
 
 define('TEST_BASE_PATH', dirname(__FILE__).'/');
 
-define('APP_NAME', 'IceHrm');
-define('FB_URL', 'IceHrm');
-define('TWITTER_URL', 'IceHrm');
+define('APP_NAME', 'AceHrm');
+define('FB_URL', 'AceHrm');
+define('TWITTER_URL', 'AceHrm');
 
 define('SIGN_IN_ELEMENT_MAPPING_FIELD_NAME', 'employee');
 

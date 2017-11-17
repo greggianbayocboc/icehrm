@@ -142,7 +142,6 @@
 
 
 	</script>
-	<?php include 'popups.php';?>
 	<?php include APP_BASE_PATH.'js/bootstrapDataTable.php';?>
     </body>
 </html>
