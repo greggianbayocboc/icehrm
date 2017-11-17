@@ -77,7 +77,7 @@ $logoFileUrl = \Classes\UIManager::getInstance()->getCompanyLogoUrl();
 
 $companyName = \Classes\SettingsManager::getInstance()->getSetting('Company: Name');
 
-if(empty($companyName) || $companyName == "Sample Company Pvt Ltd"){
+if(empty($companyName) || $companyName == "ACEMC Bohol"){
     $companyName = APP_NAME;
 }
 
@@ -92,7 +92,7 @@ include('configureUIManager.php');
     <meta charset="utf-8">
     <title><?=$companyName?></title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="https://icehrm.s3.amazonaws.com/images/icon16.png">
+    <link rel="shortcut icon" href="<?=BASE_URL?>images/icon.png">
     <meta name="description" content="">
     <meta name="author" content="">
 
@@ -218,7 +218,7 @@ include('configureUIManager.php');
     left: 0;
     z-index: 9999;
     background: rgba(0, 0, 0, 0);
-    background-image: url('<?=BASE_URL?>images/icehrm-loader.gif');
+    background-image: url('<?=BASE_URL?>images/acehrm-loader.gif');
     background-repeat: no-repeat;
     background-position: center;display:none;"></div>
     <!-- Left side column. contains the logo and sidebar -->

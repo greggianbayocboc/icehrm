@@ -38,7 +38,7 @@ if (class_exists('\\Billing\\Admin\\Api\\BillingActionManager')) {
 
     foreach($invoices as $inv){
         if($inv->status == "Sent"){
-            $numOfUnpaidInvoices++;
+
         }
     }
 }
@@ -46,40 +46,7 @@ if (class_exists('\\Billing\\Admin\\Api\\BillingActionManager')) {
 
 ?><div class="span9">
 <div class="row">
-    <?php if($numOfUnpaidInvoices == 1){?>
-    <div class="callout callout-warning lead" style="font-size: 14px;">
-        <h4>You have a pending invoice</h4>
-        <p style="font-weight: bold;">
-            You have a pending invoice. Please make you complete the payment so we can provide a better service.
-            <br/>
-            <br/>
-            <a href="<?=CLIENT_BASE_URL?>?g=admin&n=billing&m=admin_System#tabInvoice" class="btn btn-success btm-xs"><i class="fa fa-checkout"></i> Make a Payment</a>
-        </p>
-    </div>
-    <?php }else if($numOfUnpaidInvoices > 1){?>
-    <div class="callout callout-danger lead" style="font-size: 14px;">
-        <h4>You have <?=$numOfUnpaidInvoices?> pending invoices</h4>
-        <p style="font-weight: bold;">
-            You have <?=$numOfUnpaidInvoices?> pending invoice. None of your employees are currently allowed to login. Please make sure you complete payments to all the invoices to restore your service.
-            Please logout and login after completing the payment to get your service restored.
-            <br/>
-            <br/>
-            <a href="<?=CLIENT_BASE_URL?>?g=admin&n=billing&m=admin_System#tabInvoice" class="btn btn-success btm-xs"><i class="fa fa-checkout"></i> Make a Payment</a>
-        </p>
-    </div>
-    <?php }?>
 
-    <?php if(\Utils\SessionUtils::getSessionObject('account_locked') == "1"){?>
-        <div class="callout callout-danger lead" style="font-size: 14px;">
-            <h4>Your Trial Has Expired</h4>
-            <p style="font-weight: bold;">
-                Your Icehrm Trial has expired. Please upgrade subscription to continue. If not upgraded your account will be deleted with in few days.
-                <br/>
-                <br/>
-                <a href="<?=CLIENT_BASE_URL?>?g=admin&n=billing&m=admin_System" class="btn btn-success btm-xs"><i class="fa fa-checkout"></i> Upgrade Subscription</a>
-            </p>
-        </div>
-    <?php }?>
 
     <?php
     $moduleManagers = \Classes\BaseService::getInstance()->getModuleManagers();

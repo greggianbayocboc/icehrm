@@ -1,24 +1,24 @@
-IceHrm
+acehrm
 ===========
-[![Build Status](https://travis-ci.org/gamonoid/icehrm.svg?branch=master)](https://travis-ci.org/gamonoid/icehrm)
+[![Build Status](https://travis-ci.org/gamonoid/acehrm.svg?branch=master)](https://travis-ci.org/gamonoid/acehrm)
 
-IceHrm is a [HRM software](https://icehrm.com) which enable companies of all sizes to [manage HR activities](https://icehrm.com)
+acehrm is a [HRM software](https://acehrm.com) which enable companies of all sizes to [manage HR activities](https://acehrm.com)
 properly. 
 
 Useful Links
 -------------
- * IceHrm Opensource Blog: [http://icehrm.org](http://icehrm.org)
- * IceHrm Cloud Hosting: [https://icehrm.com](https://icehrm.com)
- * IceHrm Documentation (Opensource and Commercial): [http://blog.icehrm.com](http://blog.icehrm.com)
- * IceHrm Blog: [https://icehrm.com/blog](http://icehrm.com/blog)
- * Purchase IceHrm Pro: [https://icehrm.com/modules.php](https://icehrm.com/modules.php)
- * Report Issues: [https://github.com/gamonoid/icehrm/issues](https://github.com/gamonoid/icehrm/issues)
- * Feature Requests: [https://bitbucket.org/thilina/icehrm-opensource/issues](https://bitbucket.org/thilina/icehrm-opensource/issues)
- * Community Support: [http://stackoverflow.com/search?q=icehrm](http://stackoverflow.com/search?q=icehrm)
+ * acehrm Opensource Blog: [http://acehrm.org](http://acehrm.org)
+ * acehrm Cloud Hosting: [https://acehrm.com](https://acehrm.com)
+ * acehrm Documentation (Opensource and Commercial): [http://blog.acehrm.com](http://blog.acehrm.com)
+ * acehrm Blog: [https://acehrm.com/blog](http://acehrm.com/blog)
+ * Purchase acehrm Pro: [https://acehrm.com/modules.php](https://acehrm.com/modules.php)
+ * Report Issues: [https://github.com/gamonoid/acehrm/issues](https://github.com/gamonoid/acehrm/issues)
+ * Feature Requests: [https://bitbucket.org/thilina/acehrm-opensource/issues](https://bitbucket.org/thilina/acehrm-opensource/issues)
+ * Community Support: [http://stackoverflow.com/search?q=acehrm](http://stackoverflow.com/search?q=acehrm)
 
 Installation
 ------------
- * Download the latest release https://github.com/gamonoid/icehrm/releases/latest
+ * Download the latest release https://github.com/gamonoid/acehrm/releases/latest
 
  * Copy the downloaded file to the path you want to install iCE Hrm in your server and extract.
 
@@ -35,30 +35,30 @@ Installation
 Manual Installation
 -------------------
 
-[](https://thilinah.gitbooks.io/icehrm-guide/content/manual-installation.html)
+[](https://thilinah.gitbooks.io/acehrm-guide/content/manual-installation.html)
 
 Upgrade from Previous Versions to Latest Version
 ------------------------------------------------
 
-Refer: [http://blog.icehrm.com/docs/upgrade/](http://blog.icehrm.com/docs/upgrade/)
+Refer: [http://blog.acehrm.com/docs/upgrade/](http://blog.acehrm.com/docs/upgrade/)
 
-Setup IceHrm Development Environment
+Setup acehrm Development Environment
 ------------------------------------
 
-IceHrm development environment is packaged as a Vagrant box. I includes php7, nginx, phpunit and other
-software required for running icehrm
+acehrm development environment is packaged as a Vagrant box. I includes php7, nginx, phpunit and other
+software required for running acehrm
 
 Preparing development VM with Vagrant
 -------------------------------------
 
-- Clone icehrm from https://github.com/gamonoid/icehrm.git or download the source
+- Clone acehrm from https://github.com/gamonoid/acehrm.git or download the source
 
 - Install Vagrant [https://www.vagrantup.com/downloads.html](https://www.vagrantup.com/downloads.html)
 
 - Install Vagrant host updater plugin [https://github.com/cogitatio/vagrant-hostsupdater](https://github.com/cogitatio/vagrant-hostsupdater)
 
 
-- Run vagrant up in icehrm root directory (this will download icehrm vagrant image which is  ~1 GB)
+- Run vagrant up in acehrm root directory (this will download acehrm vagrant image which is  ~1 GB)
 
 ```
 ~ $ vagrant up
@@ -76,7 +76,7 @@ Preparing development VM with Vagrant
 ~ $ sudo apt-get install ant
 ```
 
-- Build Icehrm (your icehrm root directory is mapped to /vagrant/ directory in VM)
+- Build acehrm (your acehrm root directory is mapped to /vagrant/ directory in VM)
 
 ```
 ~ $ cd /vagrant
@@ -85,12 +85,12 @@ Preparing development VM with Vagrant
 
 - Execute table creation scripts
 ```
-~ $ mysql -udev -pdev dev < /vagrant/core-ext/scripts/icehrmdb.sql
-~ $ mysql -udev -pdev dev < /vagrant/core-ext/scripts/icehrm_master_data.sql
-~ $ mysql -udev -pdev dev < /vagrant/core-ext/scripts/icehrm_sample_data.sql
+~ $ mysql -udev -pdev dev < /vagrant/core-ext/scripts/acehrmdb.sql
+~ $ mysql -udev -pdev dev < /vagrant/core-ext/scripts/acehrm_master_data.sql
+~ $ mysql -udev -pdev dev < /vagrant/core-ext/scripts/acehrm_sample_data.sql
 ```
 
-- Navigate to [](http://clients.app.dev/dev) to load icehrm from VM. (user:admin/pass:admin)
+- Navigate to [](http://clients.app.dev/dev) to load acehrm from VM. (user:admin/pass:admin)
 
 - Unit testing
 
