@@ -3,11 +3,11 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Language: Italian\n"
-"Language-Team: IceHrm\n"
+"Language-Team: AceHrm\n"
 "Last-Translator: Thilina Hasantha\n"
 "MIME-Version: 1.0\n"
 "Project-Id-Version: 18.0\n"
-"Report-Msgid-Bugs-To: https://icehrm.com\n"
+"Report-Msgid-Bugs-To: https://Acehrm.com\n"
 
 msgid "Save"
 msgstr "Salvare"
@@ -409,10 +409,10 @@ msgid "Heads"
 msgstr "Teste"
 
 msgid "Code"
-msgstr "Codice"
+msgstr "CodAce"
 
 msgid "Job Title Code"
-msgstr "Job Codice Titolo"
+msgstr "Job CodAce Titolo"
 
 msgid "Job Title"
 msgstr "Titolo di lavoro"
@@ -651,7 +651,7 @@ msgstr "NIC"
 msgid "Other ID"
 msgstr "Altro ID"
 
-msgid "Driving License No"
+msgid "Driving LAcense No"
 msgstr "Patente di guida No"
 
 msgid "Pay Grade"
@@ -673,7 +673,7 @@ msgid "Province"
 msgstr "Provincia"
 
 msgid "Postal/Zip Code"
-msgstr "Codice postale"
+msgstr "CodAce postale"
 
 msgid "Home Phone"
 msgstr "Telefono di casa"
@@ -841,7 +841,7 @@ msgid "Total Funding Proposed"
 msgstr "Il finanziamento totale proposto"
 
 msgid "Itinerary / Cab Receipt"
-msgstr "Itinerario / Ricevuta Cab"
+msgstr "Itinerario / RAcevuta Cab"
 
 msgid "Other Attachment 1"
 msgstr "Altro Allegato 1"
@@ -862,7 +862,7 @@ msgid "Expense Category"
 msgstr "Spesa Categoria"
 
 msgid "Receipt"
-msgstr "Ricevuta"
+msgstr "RAcevuta"
 
 msgid "Time-In"
 msgstr "Time-In"
@@ -1353,8 +1353,8 @@ msgstr "Terminato dati dei dipendenti"
 msgid "Employee Saved Successfully"
 msgstr "Impiegato salvato con successo"
 
-msgid "Employee needs a User to login to IceHrm. Do you want to create a user for this employee now?"
-msgstr "Dipendente ha bisogno di un utente per accedere a IceHrm. Vuoi creare un utente per questo dipendente ora?"
+msgid "Employee needs a User to login to AceHrm. Do you want to create a user for this employee now?"
+msgstr "Dipendente ha bisogno di un utente per accedere a AceHrm. Vuoi creare un utente per questo dipendente ora?"
 
 msgid "You can do this later through Users module if required."
 msgstr "È possibile farlo in seguito tramite modulo utenti, se necessario."
