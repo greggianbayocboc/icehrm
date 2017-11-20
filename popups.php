@@ -107,7 +107,7 @@
 <!-- Upload Modal -->
 
 <!-- Message Modal -->
-<div class="modal fade" id="verifyModel" tabindex="-1" role="dialog" aria-labelledby="verifyModelLabel" aria-hidden="true">
+<!--<div class="modal fade" id="verifyModel" tabindex="-1" role="dialog" aria-labelledby="verifyModelLabel" aria-hidden="true">
 	<div class="modal-dialog">
 		<div class="modal-content">
 			<div class="modal-header">
@@ -118,8 +118,8 @@
 				<p id="verifyModelBody">
 					<b>Step 1:</b><br/>
 					Please get your Instance Key from here:<br/>
-					<a target="_blank" href="<?=APP_WEB_URL?>/generateInstanceKey.php?id=<?=$baseService->getInstanceId()?>">
-						<?=APP_WEB_URL?>/generateInstanceKey.php?id=<?=$baseService->getInstanceId()?>
+					<a target="_blank" href="<?/*=APP_WEB_URL*/?>/generateInstanceKey.php?id=<?/*=$baseService->getInstanceId()*/?>">
+						<?/*=APP_WEB_URL*/?>/generateInstanceKey.php?id=<?/*=$baseService->getInstanceId()*/?>
 					</a>
 
 					<br/><b>Step 2:</b><br/>
@@ -145,7 +145,7 @@
 			</p>
 		</div>
 	</div>
-</div>
+</div>-->
 </div>
 <!-- Message Modal -->
 
