@@ -189,7 +189,7 @@ include('configureUIManager.php');
 <header id="delegationDiv" class="header">
     <div class="logo" style="overflow: hidden;font-family: 'Source Sans Pro', sans-serif;">
         <a  href="https://demo.hisd3.com/">
-            < HISD3
+           <strong>< HISD3</strong>
         </a>
         &nbsp; |
         &nbsp;
