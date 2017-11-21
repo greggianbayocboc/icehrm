@@ -187,9 +187,16 @@ include('configureUIManager.php');
 </script>
 
 <header id="delegationDiv" class="header">
-    <a href="<?=$homeLink?>" class="logo" style="overflow: hidden;font-family: 'Source Sans Pro', sans-serif;">
-        <?=\Classes\LanguageManager::tran('Home')?>
-    </a>
+    <div class="logo" style="overflow: hidden;font-family: 'Source Sans Pro', sans-serif;">
+        <a  href="https://demo.hisd3.com/">
+            < HISD3
+        </a>
+        &nbsp; |
+        &nbsp;
+        <a  href="<?=$homeLink?>">
+            <?=\Classes\LanguageManager::tran('Home')?>
+        </a>
+    </div>
     <!-- Header Navbar: style can be found in header.less -->
     <nav class="navbar navbar-static-top" role="navigation">
         <!-- Sidebar toggle button-->
